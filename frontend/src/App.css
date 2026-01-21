@@ -1,0 +1,44 @@
+.App {
+  min-height: 100vh;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, hsl(40, 20%, 97%) 0%, hsl(138, 25%, 95%) 100%);
+}
+
+.card-hover-gradient:hover {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(74,124,89,0.05) 100%);
+}
+
+.btn-primary {
+  @apply rounded-full bg-primary text-primary-foreground shadow-lg transition-all duration-300;
+}
+
+.btn-primary:hover {
+  @apply shadow-xl scale-105;
+}
+
+.card-interactive {
+  @apply bg-card rounded-2xl border border-border/50 shadow-sm transition-all duration-300 cursor-pointer;
+}
+
+.card-interactive:hover {
+  @apply shadow-xl -translate-y-1;
+}
+
+.glass-card {
+  @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-lg rounded-2xl;
+}
+
+.emergency-pulse {
+  animation: pulse-emergency 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-emergency {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "identity": {
+    "name": "OTCwise",
+    "persona": "The Modern Apothecary",
+    "tone": "Warm, Trustworthy, Educational, Non-Clinical",
+    "core_values": ["Calm", "Clarity", "Safety", "Support"],
+    "design_principles": [
+      "Fusion: Botanical Encyclopedia meets Modern Safety Manual",
+      "Emotion First: Reassurance over Urgency",
+      "Content is King: Legibility is safety",
+      "Negative Space: Breathing room for anxious users"
+    ]
+  },
+  "typography": {
+    "primary_font": "Manrope",
+    "secondary_font": "Merriweather",
+    "font_weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700,
+      "black": 900
+    },
+    "usage": {
+      "headings": "Merriweather, serif (Warm authority)",
+      "body": "Manrope, sans-serif (Clean legibility)",
+      "ui_elements": "Manrope, sans-serif (Buttons, Labels)",
+      "alerts": "Manrope, sans-serif (Clear warnings)"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-5xl font-bold tracking-tight text-primary-900",
+      "h2": "text-3xl md:text-4xl font-bold tracking-tight text-primary-800",
+      "h3": "text-2xl md:text-3xl font-semibold text-primary-800",
+      "body_large": "text-lg md:text-xl leading-relaxed text-foreground/90",
+      "body_base": "text-base leading-relaxed text-foreground/80",
+      "caption": "text-sm text-muted-foreground"
+    }
+  },
+  "colors": {
+    "palette_name": "Organic & Earthy (Archetype 1)",
+    "base": {
+      "background": "hsl(40, 20%, 97%)", 
+      "foreground": "hsl(180, 7%, 19%)",
+      "card": "hsl(0, 0%, 100%)",
+      "card_foreground": "hsl(180, 7%, 19%)"
+    },
+    "brand": {
+      "primary": "hsl(138, 25%, 39%)", 
+      "primary_foreground": "hsl(0, 0%, 98%)",
+      "secondary": "hsl(13, 69%, 63%)", 
+      "secondary_foreground": "hsl(0, 0%, 98%)",
+      "accent": "hsl(35, 40%, 90%)", 
+      "accent_foreground": "hsl(138, 25%, 25%)"
+    },
+    "status": {
+      "success": "hsl(142, 76%, 36%)",
+      "warning": "hsl(48, 96%, 53%)",
+      "error": "hsl(0, 84%, 60%)", 
+      "info": "hsl(199, 89%, 48%)"
+    },
+    "gradients": {
+      "hero": "linear-gradient(135deg, hsl(40, 20%, 97%) 0%, hsl(138, 25%, 95%) 100%)",
+      "card_hover": "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(74,124,89,0.05) 100%)"
+    }
+  },
+  "spacing": {
+    "scale": "Generous (2x standard)",
+    "container_padding": "p-6 md:p-12 lg:p-16",
+    "section_gap": "gap-12 md:gap-24",
+    "element_gap": "gap-4 md:gap-8",
+    "radius": {
+      "default": "0.75rem",
+      "button": "9999px",
+      "card": "1rem"
+    }
+  },
+  "layout": {
+    "grid_system": "Bento Grid (Mode A for Marketing, Mode B for Dashboard)",
+    "container_width": "max-w-7xl mx-auto",
+    "z_index": {
+      "toast": 50,
+      "modal": 40,
+      "dropdown": 30,
+      "sticky_nav": 20
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "rounded-full bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300",
+      "secondary": "rounded-full bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-md hover:shadow-lg transition-all duration-300",
+      "outline": "rounded-full border-2 border-primary text-primary hover:bg-primary/5 transition-all duration-300",
+      "ghost": "rounded-full hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+    },
+    "cards": {
+      "default": "bg-card text-card-foreground rounded-2xl border border-border/50 shadow-sm hover:shadow-md transition-all duration-300",
+      "interactive": "bg-card text-card-foreground rounded-2xl border border-border/50 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-pointer",
+      "glass": "bg-white/70 backdrop-blur-xl border border-white/20 shadow-lg rounded-2xl"
+    },
+    "inputs": {
+      "default": "rounded-xl border-border bg-white/50 focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-200"
+    }
+  },
+  "visual_enhancers": {
+    "texture": "Subtle grain overlay on backgrounds to reduce digital flatness",
+    "shadows": "Soft, diffuse shadows (colored with primary hue) rather than harsh black shadows",
+    "glassmorphism": "Used sparingly for sticky headers and floating action buttons",
+    "icons": "Phosphor Icons (Duotone or Regular) - Soft and rounded"
+  },
+  "images": {
+    "hero": {
+      "url": "https://images.pexels.com/photos/5765761/pexels-photo-5765761.jpeg",
+      "alt": "Calm doctor consultation with warm lighting",
+      "category": "hero"
+    },
+    "first_aid": {
+      "url": "https://images.pexels.com/photos/8943355/pexels-photo-8943355.jpeg",
+      "alt": "First aid kit supplies flat lay",
+      "category": "feature"
+    },
+    "medicine": {
+      "url": "https://images.unsplash.com/photo-1631669969504-f35518bf96ba",
+      "alt": "Medicine bottle on wooden table",
+      "category": "feature"
+    },
+    "consultation": {
+      "url": "https://images.pexels.com/photos/8376293/pexels-photo-8376293.jpeg",
+      "alt": "Doctor talking to patient",
+      "category": "content"
+    },
+    "texture_abstract": {
+      "url": "https://images.unsplash.com/photo-1762328500413-1a4cb2023059",
+      "alt": "Abstract medicine aesthetic",
+      "category": "background"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Implement the 'Modern Apothecary' theme using the specified colors and fonts.",
+    "Use 'Merriweather' for all H1-H3 headings and 'Manrope' for body text.",
+    "Ensure the 'Sage Green' primary color is dominant but not overwhelming.",
+    "Use 'Clay/Terracotta' for alerts/warnings instead of standard red.",
+    "Apply generous spacing (p-8, p-12) to create a calm atmosphere.",
+    "Use the provided image URLs for the respective sections.",
+    "Ensure all interactive elements have 'data-testid' attributes.",
+    "Use 'sonner' for toast notifications.",
+    "Prioritize accessibility: Ensure contrast ratios are met, especially with the soft color palette."
+  ],
+  "universal_guidelines": [
+    "Avoid generic 'AI slop' designs.",
+    "Do not use gradients for dark colors.",
+    "Create depth through layered design elements.",
+    "Use glass-morphism effects with backdrop filters.",
+    "Do not apply universal transitions (transition: all).",
+    "Do not center align the app container.",
+    "Always use modern button styles.",
+    "Never use AI assistant emojis.",
+    "Every interaction needs micro-animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Add subtle grain textures and noise overlays."
+  ]
+}
